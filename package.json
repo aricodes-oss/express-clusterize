@@ -1,0 +1,19 @@
+{
+  "name": "express-clusterize",
+  "version": "1.0.0",
+  "description": "A no-nonsense clustering solution for your apps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aricodes-oss/express-clusterize.git"
+  },
+  "author": "Aria Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aricodes-oss/express-clusterize/issues"
+  },
+  "homepage": "https://github.com/aricodes-oss/express-clusterize#readme"
+}
