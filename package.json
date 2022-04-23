@@ -1,6 +1,6 @@
 {
   "name": "express-clusterize",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A no-nonsense clustering solution for your apps.",
   "main": "index.js",
   "scripts": {
