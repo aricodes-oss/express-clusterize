@@ -4,7 +4,10 @@ const process = require('process');
 
 const numCPUs = cpus().length;
 
-const clusterize = async (entrypoint, { children = numCPUs, prodOnly = false, respawn = true }) => {
+const clusterize = async (
+  entrypoint,
+  { children = numCPUs, prodOnly = false, respawn = true } = {},
+) => {
   if (prodOnly && process.env.NODE_ENV !== 'production') {
     return entrypoint();
   }
